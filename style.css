@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  justify-content: center;
+  margin: auto;
+}
+.box {
+  width: 768px;
+  margin: auto;
+}
+
+.btn {
+  width: 200px;
+  height: 100px;
+  margin: 200px auto 50px;
+  background: grey;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: wheat;
+  cursor: pointer;
+}
+
+.input-group {
+  margin: 50px
+}
+
+.input-name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.input {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
